@@ -1,0 +1,196 @@
+.container-background {
+  background-image: url("https://programmer.group/images/article/b4bf80fdc49fd30a6662d678c9b693ce.jpg");
+  margin: none;
+  height: 50vh;
+}
+.mainheadwrap {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  width: 100px;
+  height: 35px;
+  margin-left: 2%;
+}
+.addnew {
+  width: 100%;
+  margin-left: 2%;
+  /* margin-right: 2% !important; */
+}
+.Btnadd {
+  text-align: center;
+  height: 35px;
+
+  padding: 10px 16px 12px 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.Btnadd img {
+  padding: 0;
+  font-size: inherit;
+  position: inherit;
+  display: inline-block;
+  margin-right: 13px;
+  vertical-align: middle;
+}
+.searchbar-cont {
+  width: 4000px;
+  /* max-width: 550px; */
+  display: flex;
+  align-items: center;
+
+  margin-right: 4%;
+  margin-top: 1% !important;
+}
+.srchbtn{
+    font-size: 20px;
+    margin: auto;
+    background: transparent;
+    color: rgb(255, 254, 254);
+    border: 0;
+    padding: 8px;
+    cursor: pointer;
+    min-height: 36px;
+}
+.srchbar {
+  background: hsla(0, 0%, 81%, 0.25);
+  border: 1px solid transparent;
+  padding: 8px 25px 8px 10px;
+  border-radius: 3px;
+  width: 100%;
+  height: 28px;
+  outline: 0 none;
+  opacity: 0.9;
+  /* min-height: 30px; */
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: white;
+  overflow: visible;
+  text-shadow: inherit;
+
+}
+.headrtside{
+    display: flex;
+    align-items: center;
+}
+button{
+    text-align: center;
+    height: 35px !important;
+    padding: 7px 14px 10px 9px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    width: auto;
+    box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+    color: #fff;
+    white-space: nowrap;
+    border: none;
+}
+.goadfreebtn{
+
+    background: #6432f9;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+    padding: 0 10px 0 9px;
+    overflow: hidden;
+    margin: auto 0;
+    line-height: 35px;
+}
+.signinbtn{
+
+    margin: auto 24px auto 8px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 14px 15px rgb(27 28 30 / 31%);
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.signupbtn{
+    min-width: 105px;
+    padding-top: 9px;
+    text-align: center;
+    height: 35px;
+    display: inline-block;
+    padding: 7px 14px 10px 9px;
+    text-transform: none;
+    user-select: none;
+    touch-action: manipulation;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    width: auto;
+    background-color: #1bb76e;
+    box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+    color: #fff;
+    white-space: nowrap;
+    margin-right: 2%;
+}
+.welcmText{
+    color: #aed8ea;
+    margin-top: 15px;
+    height: 32;
+    letter-spacing: 0.6px;
+    font-size: 22px;
+    text-align: center;
+}
+.explorediv{
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.explorediv p{
+    margin-left: 4%;
+}
+.explorediv a{
+    margin-right: 4%;
+}
+.trendingdiv{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.cards{
+    margin: 6px 6px 0;
+        height: 130px;
+    width: 232px;
+
+}
+.postcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.postcontainer img{
+    margin:5px;
+    width:250px;
+    height:300px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+    border-radius: 3px;
+    overflow: hidden;
+
+}
